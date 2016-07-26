@@ -1,0 +1,3 @@
+/Users/idurdyev/Documents/Projects/UE4/SimpleAndroid/Source/SimpleAndroid/SimpleAndroid.Build.cs
+/Users/idurdyev/Documents/Projects/UE4/SimpleAndroid/Source/SimpleAndroid.Target.cs
+/Users/idurdyev/Documents/Projects/UE4/SimpleAndroid/Source/SimpleAndroidEditor.Target.cs

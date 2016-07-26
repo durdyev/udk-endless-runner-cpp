@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "AMyPlayer::Tick(float):MyPlayer.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "lastActor-&gt;GetActorLocation()">
+            </PersistentString>
+            <PersistentString
+               value = "location.X">
+            </PersistentString>
+            <PersistentString
+               value = "lastLocation-&gt;X">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AMyPlayer::AMyPlayer():MyPlayer.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = " GetWorld()">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

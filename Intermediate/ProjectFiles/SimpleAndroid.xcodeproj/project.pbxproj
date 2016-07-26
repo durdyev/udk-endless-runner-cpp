@@ -1,0 +1,1067 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF7B3A1258A85784EF74E0C7 /* MyPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0DFB86295ADCFABF06E7420F /* MyPlayer.cpp */; };
+		C5B9D341792BA4A7C775458F /* SimpleAndroid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F667F2B4E0CE4FDBC7F8F819 /* SimpleAndroid.cpp */; };
+		F3C99F86AF4647CCC1BA5B1D /* SimpleAndroidGameMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC1E3ED4DF039B1EB8A4F374 /* SimpleAndroidGameMode.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A62C99872E591953037B86AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBA5416C5940F03A171D0467 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D60EFB91E9ABEBB7A53B55;
+			remoteInfo = SimpleAndroid_Build;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		064B1640EBC56E176BE772EA /* MyPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MyPlayer.h; path = ../../Source/SimpleAndroid/MyPlayer.h; sourceTree = SOURCE_ROOT; };
+		0DFB86295ADCFABF06E7420F /* MyPlayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = MyPlayer.cpp; path = ../../Source/SimpleAndroid/MyPlayer.cpp; sourceTree = SOURCE_ROOT; };
+		10E4841AB4578BB4EF66F8B7 /* SimpleAndroid.uproject */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = SimpleAndroid.uproject; path = ../../SimpleAndroid.uproject; sourceTree = SOURCE_ROOT; };
+		48D2DF1198E67E7F54FE220F /* SimpleAndroid.Build.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = SimpleAndroid.Build.cs; path = ../../Source/SimpleAndroid/SimpleAndroid.Build.cs; sourceTree = SOURCE_ROOT; };
+		4E6FC01DBECF6EAFE3EBE34A /* DefaultGame.ini */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = DefaultGame.ini; path = ../../Config/DefaultGame.ini; sourceTree = SOURCE_ROOT; };
+		540E92AC8FE28D0610416168 /* SimpleAndroidGameMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SimpleAndroidGameMode.h; path = ../../Source/SimpleAndroid/SimpleAndroidGameMode.h; sourceTree = SOURCE_ROOT; };
+		5873D72E80F5FC38B15BAE4B /* DefaultEngine.ini */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = DefaultEngine.ini; path = ../../Config/DefaultEngine.ini; sourceTree = SOURCE_ROOT; };
+		6EF1EB4E659A8BF798C986A9 /* SimpleAndroidEditor.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = SimpleAndroidEditor.Target.cs; path = ../../Source/SimpleAndroidEditor.Target.cs; sourceTree = SOURCE_ROOT; };
+		940AC694D607EE88F16DFF10 /* SimpleAndroid.Target.cs */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = SimpleAndroid.Target.cs; path = ../../Source/SimpleAndroid.Target.cs; sourceTree = SOURCE_ROOT; };
+		9F1A6E3CBDFC1C4D72A426E5 /* DefaultEditor.ini */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = DefaultEditor.ini; path = ../../Config/DefaultEditor.ini; sourceTree = SOURCE_ROOT; };
+		AC1E3ED4DF039B1EB8A4F374 /* SimpleAndroidGameMode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = SimpleAndroidGameMode.cpp; path = ../../Source/SimpleAndroid/SimpleAndroidGameMode.cpp; sourceTree = SOURCE_ROOT; };
+		C16B5E0D86DC55D38D501B31 /* SimpleAndroid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SimpleAndroid.h; path = ../../Source/SimpleAndroid/SimpleAndroid.h; sourceTree = SOURCE_ROOT; };
+		CEDBC2E8B849B360A801E011 /* DefaultInput.ini */ = {isa = PBXFileReference; lastKnownFileType = file.text; name = DefaultInput.ini; path = ../../Config/DefaultInput.ini; sourceTree = SOURCE_ROOT; };
+		EE10651D075D9A76F94187B5 /* SimpleAndroid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = SimpleAndroid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F667F2B4E0CE4FDBC7F8F819 /* SimpleAndroid.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = SimpleAndroid.cpp; path = ../../Source/SimpleAndroid/SimpleAndroid.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1C605C97C79ADD89E88E7B0D /* SimpleAndroid */ = {
+			isa = PBXGroup;
+			children = (
+				0DFB86295ADCFABF06E7420F /* MyPlayer.cpp */,
+				064B1640EBC56E176BE772EA /* MyPlayer.h */,
+				48D2DF1198E67E7F54FE220F /* SimpleAndroid.Build.cs */,
+				F667F2B4E0CE4FDBC7F8F819 /* SimpleAndroid.cpp */,
+				C16B5E0D86DC55D38D501B31 /* SimpleAndroid.h */,
+				AC1E3ED4DF039B1EB8A4F374 /* SimpleAndroidGameMode.cpp */,
+				540E92AC8FE28D0610416168 /* SimpleAndroidGameMode.h */,
+			);
+			name = SimpleAndroid;
+			path = Source/SimpleAndroid;
+			sourceTree = "<group>";
+		};
+		277A4476F71245EF83747FFB /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1C605C97C79ADD89E88E7B0D /* SimpleAndroid */,
+				940AC694D607EE88F16DFF10 /* SimpleAndroid.Target.cs */,
+				6EF1EB4E659A8BF798C986A9 /* SimpleAndroidEditor.Target.cs */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		55300B64F247402D195A1CB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE10651D075D9A76F94187B5 /* SimpleAndroid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EAFBC47190DBB1A27493136 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				9F1A6E3CBDFC1C4D72A426E5 /* DefaultEditor.ini */,
+				5873D72E80F5FC38B15BAE4B /* DefaultEngine.ini */,
+				4E6FC01DBECF6EAFE3EBE34A /* DefaultGame.ini */,
+				CEDBC2E8B849B360A801E011 /* DefaultInput.ini */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		CACD7629D4751CE797AD94ED = {
+			isa = PBXGroup;
+			children = (
+				277A4476F71245EF83747FFB /* Source */,
+				6EAFBC47190DBB1A27493136 /* Config */,
+				10E4841AB4578BB4EF66F8B7 /* SimpleAndroid.uproject */,
+				55300B64F247402D195A1CB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		04D60EFB91E9ABEBB7A53B55 /* SimpleAndroid_Build */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION) $(UE_BUILD_TARGET_NAME) $(PLATFORM_NAME) $(UE_BUILD_TARGET_CONFIG) \"/Users/idurdyev/Documents/Projects/UE4/SimpleAndroid/SimpleAndroid.uproject\"";
+			buildConfigurationList = 8BCB61F5348CE846C4CABEF1 /* Build configuration list for PBXLegacyTarget "SimpleAndroid_Build" */;
+			buildPhases = (
+			);
+			buildToolPath = /Users/Shared/UnrealEngine/4.12/Engine/Build/BatchFiles/Mac/Build.sh;
+			buildWorkingDirectory = /Users/Shared/UnrealEngine/4.12;
+			dependencies = (
+			);
+			name = SimpleAndroid_Build;
+			passBuildSettingsInEnvironment = 1;
+			productName = SimpleAndroid_Build;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		C4D82E49017C841057D7DA98 /* SimpleAndroid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19C43BE2822552904F4DDFEC /* Build configuration list for PBXNativeTarget "SimpleAndroid" */;
+			buildPhases = (
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C24B77AD015C46F1ED2E0C96 /* PBXTargetDependency */,
+			);
+			name = SimpleAndroid;
+			productName = SimpleAndroid;
+			productReference = EE10651D075D9A76F94187B5 /* SimpleAndroid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F729EA8F93969D64A5E38257 /* SimpleAndroid_Index */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A1DC21AD09BF649D40F913C /* Build configuration list for PBXNativeTarget "SimpleAndroid_Index" */;
+			buildPhases = (
+				43D541FD5FE9F3F1FB2AA28B /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleAndroid_Index;
+			productName = SimpleAndroid_Index;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBA5416C5940F03A171D0467 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Epic Games, Inc.";
+			};
+			buildConfigurationList = FE1B572007D7B0A84809AA17 /* Build configuration list for PBXProject "SimpleAndroid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CACD7629D4751CE797AD94ED;
+			productRefGroup = 55300B64F247402D195A1CB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4D82E49017C841057D7DA98 /* SimpleAndroid */,
+				04D60EFB91E9ABEBB7A53B55 /* SimpleAndroid_Build */,
+				F729EA8F93969D64A5E38257 /* SimpleAndroid_Index */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43D541FD5FE9F3F1FB2AA28B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF7B3A1258A85784EF74E0C7 /* MyPlayer.cpp in Sources */,
+				C5B9D341792BA4A7C775458F /* SimpleAndroid.cpp in Sources */,
+				F3C99F86AF4647CCC1BA5B1D /* SimpleAndroidGameMode.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C24B77AD015C46F1ED2E0C96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D60EFB91E9ABEBB7A53B55 /* SimpleAndroid_Build */;
+			targetProxy = A62C99872E591953037B86AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2074068D5247C265DD59C832 /* Development Editor */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"UE_EDITOR=1",
+					"IS_PROGRAM=0",
+					"WITH_DEV_AUTOMATION_TESTS=1",
+					"WITH_PERF_AUTOMATION_TESTS=1",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=0",
+					"WITH_ENGINE=1",
+					"WITH_UNREAL_DEVELOPER_TOOLS=1",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"USE_LOGGING_IN_SHIPPING=0",
+					"USE_CHECKS_IN_SHIPPING=0",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=1",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"UBT_COMPILED_TARGET=Editor",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"HAS_METAL=1",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"ORIGINAL_FILE_NAME=UE4Editor-SimpleAndroid.dylib",
+					"DEPRECATED_FORGAME=DEPRECATED",
+					"SIMPLEANDROID_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_STEAMWORKS=1",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"COREUOBJECT_API=",
+					"WITH_PHYSX=1",
+					"WITH_APEX=1",
+					WITH_RUNTIME_PHYSICS_COOKING,
+					"WITH_BOX2D=0",
+					"WITH_RECAST=1",
+					"ENGINE_API=",
+					"JSON_API=",
+					"WITH_FREETYPE=1",
+					"SLATECORE_API=",
+					"INPUTCORE_API=",
+					"SLATE_API=",
+					"MESSAGING_API=",
+					"RENDERCORE_API=",
+					"RHI_API=",
+					"SHADERCORE_API=",
+					"ASSETREGISTRY_API=",
+					"ENGINEMESSAGES_API=",
+					"ENGINESETTINGS_API=",
+					"SYNTHBENCHMARK_API=",
+					"RENDERER_API=",
+					"WITH_GAMEPLAY_DEBUGGER=1",
+					"AIMODULE_API=",
+					"GAMEPLAYTAGS_API=",
+					"GAMEPLAYTASKS_API=",
+					"DATABASESUPPORT_API=",
+					"PACKETHANDLER_API=",
+					"RELIABILITYHANDLERCOMPONENT_API=",
+					"HARDWARESURVEY_API=",
+					"UNREALED_API=",
+					"BSPMODE_API=",
+					"DIRECTORYWATCHER_API=",
+					"DOCUMENTATION_API=",
+					"PROJECTS_API=",
+					"SANDBOXFILE_API=",
+					"EDITORSTYLE_API=",
+					"SOURCECONTROL_API=",
+					"UNREALEDMESSAGES_API=",
+					"ENABLE_OLD_GAMEPLAY_DEBUGGER=1",
+					"GAMEPLAYDEBUGGER_API=",
+					"BLUEPRINTGRAPH_API=",
+					"HTTP_PACKAGE=1",
+					"HTTP_API=",
+					"UNREALAUDIO_API=",
+					"NIAGARA_API=",
+					"MOVIESCENE_API=",
+					"VECTORVM_API=",
+					"FUNCTIONALTESTING_API=",
+					"UNREALAUDIOCOREAUDIO_API=",
+					"USERFEEDBACK_API=",
+					"COLLECTIONMANAGER_API=",
+					"NIAGARAEDITOR_API=",
+					"GRAPHEDITOR_API=",
+					"INTROTUTORIALS_API=",
+					"LEVELEDITOR_API=",
+					"SETTINGS_API=",
+					"HEADMOUNTEDDISPLAY_API=",
+					"VREDITOR_API=",
+					"ADDCONTENTDIALOG_API=",
+					"MESHUTILITIES_API=",
+					"KISMET_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine/4.12/Engine/Source ../../Source ../Build/Mac/UE4Editor/Inc/SimpleAndroid ../../Source/SimpleAndroid /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public/Internationalization /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public/UObject /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CoreUObject /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/AI /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/AI/Navigation /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Animation /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/EdGraph /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Features /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Internationalization /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Net /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/PacketHandlers /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Performance /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Slate /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Tests /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/VisualLogger /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Json/Public/Serialization /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Json /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Widgets /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SlateCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/InputCore/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/InputCore/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/InputCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/InputCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Views /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Slate /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Messaging/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Messaging/Public/Deprecated /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Messaging/Public/Helpers /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Messaging /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Messaging /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/RenderCore/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RenderCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/RenderCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/RHI/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RHI /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/RHI /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/ShaderCore/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ShaderCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/ShaderCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/AssetRegistry/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AssetRegistry /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/AssetRegistry /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/EngineMessages/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/EngineMessages/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineMessages /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/EngineMessages /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/EngineSettings/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/EngineSettings/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineSettings /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/EngineSettings /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SynthBenchmark/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SynthBenchmark /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SynthBenchmark /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Renderer/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Renderer /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Renderer /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/AIModule/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/AIModule/Classes /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/AIModule /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayTags/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayTags/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTags /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayTags /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayTasks/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayTasks/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTasks /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayTasks /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/DatabaseSupport/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DatabaseSupport /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/DatabaseSupport /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/PacketHandlers/PacketHandler/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/PacketHandlers/PacketHandler/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/PacketHandler /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/PacketHandlers/PacketHandler /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ReliabilityHandlerComponent /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/HardwareSurvey/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HardwareSurvey /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/HardwareSurvey /Users/Shared/UnrealEngine/4.12/Engine/Source/Programs/UnrealLightmass/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/AutoReimport /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Commandlets /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Dialogs /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/DragAndDrop /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Features /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Kismet2 /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Layers /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Localization /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Settings /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Tests /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Toolkits /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEd /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/BspMode/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BspMode /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/BspMode /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/DirectoryWatcher/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DirectoryWatcher /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/DirectoryWatcher /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Documentation/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Documentation /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Documentation /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Projects/Public/Interfaces /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Projects /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SandboxFile/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SandboxFile /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SandboxFile /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/EditorStyle/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/EditorStyle/Public/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/EditorStyle/Public/Interfaces /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EditorStyle /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/EditorStyle /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/SourceControl/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/SourceControl/Public/Tests /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SourceControl /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/SourceControl /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEdMessages/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEdMessages/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEdMessages /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEdMessages /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/GameplayDebugger/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/AIModule/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/Settings/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayAbilities/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/GameplayDebugger/Classes /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayDebugger /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/GameplayDebugger /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/BlueprintGraph/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/BlueprintGraph/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BlueprintGraph /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/BlueprintGraph /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/Android /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/Apple /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/GenericPlatform /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/HTML5 /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/Interfaces /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/Linux /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/WinRT /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/Windows /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HTTP /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/UnrealAudio/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudio /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/UnrealAudio /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Niagara/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Niagara/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Niagara /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Niagara /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/MovieScene/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/MovieScene /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/MovieScene /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/VectorVM/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/VectorVM /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/VectorVM /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/FunctionalTesting/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/FunctionalTesting/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/FunctionalTesting /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/FunctionalTesting /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudioCoreAudio /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Mac/UnrealAudioCoreAudio /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UserFeedback/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UserFeedback /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UserFeedback /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/CollectionManager/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CollectionManager /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/CollectionManager /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/NiagaraEditor/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/NiagaraEditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/NiagaraEditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/GraphEditor/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/GraphEditor/Public/KismetNodes /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GraphEditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/GraphEditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/IntroTutorials/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/IntroTutorials /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/IntroTutorials /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/LevelEditor/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/LevelEditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/LevelEditor /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Settings /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/Settings /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/HeadMountedDisplay/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HeadMountedDisplay /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/HeadMountedDisplay /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/VREditor/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/VREditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/VREditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/AddContentDialog/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AddContentDialog /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/AddContentDialog /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/MeshUtilities/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/MeshUtilities /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/MeshUtilities /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Kismet/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Kismet/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Kismet/Public/Nodes /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Kismet/Public/Profiler /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Kismet /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Kismet";
+				USE_HEADERMAP = NO;
+			};
+			name = "Development Editor";
+		};
+		33F2287E2C32DA07E1676DE3 /* DebugGame Editor */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"UE_EDITOR=1",
+					"IS_PROGRAM=0",
+					"WITH_DEV_AUTOMATION_TESTS=1",
+					"WITH_PERF_AUTOMATION_TESTS=1",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=0",
+					"WITH_ENGINE=1",
+					"WITH_UNREAL_DEVELOPER_TOOLS=1",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"USE_LOGGING_IN_SHIPPING=0",
+					"USE_CHECKS_IN_SHIPPING=0",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=1",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"UBT_COMPILED_TARGET=Editor",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"HAS_METAL=1",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"ORIGINAL_FILE_NAME=UE4Editor-SimpleAndroid.dylib",
+					"DEPRECATED_FORGAME=DEPRECATED",
+					"SIMPLEANDROID_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_STEAMWORKS=1",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"COREUOBJECT_API=",
+					"WITH_PHYSX=1",
+					"WITH_APEX=1",
+					WITH_RUNTIME_PHYSICS_COOKING,
+					"WITH_BOX2D=0",
+					"WITH_RECAST=1",
+					"ENGINE_API=",
+					"JSON_API=",
+					"WITH_FREETYPE=1",
+					"SLATECORE_API=",
+					"INPUTCORE_API=",
+					"SLATE_API=",
+					"MESSAGING_API=",
+					"RENDERCORE_API=",
+					"RHI_API=",
+					"SHADERCORE_API=",
+					"ASSETREGISTRY_API=",
+					"ENGINEMESSAGES_API=",
+					"ENGINESETTINGS_API=",
+					"SYNTHBENCHMARK_API=",
+					"RENDERER_API=",
+					"WITH_GAMEPLAY_DEBUGGER=1",
+					"AIMODULE_API=",
+					"GAMEPLAYTAGS_API=",
+					"GAMEPLAYTASKS_API=",
+					"DATABASESUPPORT_API=",
+					"PACKETHANDLER_API=",
+					"RELIABILITYHANDLERCOMPONENT_API=",
+					"HARDWARESURVEY_API=",
+					"UNREALED_API=",
+					"BSPMODE_API=",
+					"DIRECTORYWATCHER_API=",
+					"DOCUMENTATION_API=",
+					"PROJECTS_API=",
+					"SANDBOXFILE_API=",
+					"EDITORSTYLE_API=",
+					"SOURCECONTROL_API=",
+					"UNREALEDMESSAGES_API=",
+					"ENABLE_OLD_GAMEPLAY_DEBUGGER=1",
+					"GAMEPLAYDEBUGGER_API=",
+					"BLUEPRINTGRAPH_API=",
+					"HTTP_PACKAGE=1",
+					"HTTP_API=",
+					"UNREALAUDIO_API=",
+					"NIAGARA_API=",
+					"MOVIESCENE_API=",
+					"VECTORVM_API=",
+					"FUNCTIONALTESTING_API=",
+					"UNREALAUDIOCOREAUDIO_API=",
+					"USERFEEDBACK_API=",
+					"COLLECTIONMANAGER_API=",
+					"NIAGARAEDITOR_API=",
+					"GRAPHEDITOR_API=",
+					"INTROTUTORIALS_API=",
+					"LEVELEDITOR_API=",
+					"SETTINGS_API=",
+					"HEADMOUNTEDDISPLAY_API=",
+					"VREDITOR_API=",
+					"ADDCONTENTDIALOG_API=",
+					"MESHUTILITIES_API=",
+					"KISMET_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine/4.12/Engine/Source ../../Source ../Build/Mac/UE4Editor/Inc/SimpleAndroid ../../Source/SimpleAndroid /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public/Internationalization /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public/UObject /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CoreUObject /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/AI /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/AI/Navigation /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Animation /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/EdGraph /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Features /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Internationalization /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Net /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/PacketHandlers /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Performance /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Slate /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Tests /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/VisualLogger /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Json/Public/Serialization /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Json /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Widgets /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SlateCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/InputCore/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/InputCore/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/InputCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/InputCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Views /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Slate /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Messaging/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Messaging/Public/Deprecated /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Messaging/Public/Helpers /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Messaging /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Messaging /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/RenderCore/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RenderCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/RenderCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/RHI/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RHI /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/RHI /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/ShaderCore/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ShaderCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/ShaderCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/AssetRegistry/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AssetRegistry /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/AssetRegistry /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/EngineMessages/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/EngineMessages/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineMessages /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/EngineMessages /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/EngineSettings/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/EngineSettings/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineSettings /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/EngineSettings /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SynthBenchmark/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SynthBenchmark /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SynthBenchmark /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Renderer/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Renderer /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Renderer /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/AIModule/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/AIModule/Classes /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/AIModule /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayTags/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayTags/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTags /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayTags /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayTasks/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayTasks/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTasks /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayTasks /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/DatabaseSupport/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DatabaseSupport /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/DatabaseSupport /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/PacketHandlers/PacketHandler/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/PacketHandlers/PacketHandler/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/PacketHandler /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/PacketHandlers/PacketHandler /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ReliabilityHandlerComponent /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/HardwareSurvey/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HardwareSurvey /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/HardwareSurvey /Users/Shared/UnrealEngine/4.12/Engine/Source/Programs/UnrealLightmass/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/AutoReimport /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Commandlets /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Dialogs /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/DragAndDrop /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Features /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Kismet2 /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Layers /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Localization /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Settings /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Tests /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Toolkits /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEd /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/BspMode/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BspMode /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/BspMode /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/DirectoryWatcher/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DirectoryWatcher /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/DirectoryWatcher /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Documentation/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Documentation /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Documentation /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Projects/Public/Interfaces /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Projects /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SandboxFile/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SandboxFile /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SandboxFile /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/EditorStyle/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/EditorStyle/Public/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/EditorStyle/Public/Interfaces /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EditorStyle /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/EditorStyle /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/SourceControl/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/SourceControl/Public/Tests /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SourceControl /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/SourceControl /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEdMessages/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEdMessages/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEdMessages /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEdMessages /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/GameplayDebugger/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/AIModule/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/Settings/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayAbilities/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/GameplayDebugger/Classes /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayDebugger /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/GameplayDebugger /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/BlueprintGraph/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/BlueprintGraph/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BlueprintGraph /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/BlueprintGraph /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/Android /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/Apple /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/GenericPlatform /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/HTML5 /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/Interfaces /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/Linux /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/WinRT /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/Windows /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HTTP /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/UnrealAudio/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudio /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/UnrealAudio /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Niagara/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Niagara/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Niagara /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Niagara /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/MovieScene/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/MovieScene /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/MovieScene /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/VectorVM/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/VectorVM /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/VectorVM /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/FunctionalTesting/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/FunctionalTesting/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/FunctionalTesting /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/FunctionalTesting /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudioCoreAudio /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Mac/UnrealAudioCoreAudio /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UserFeedback/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UserFeedback /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UserFeedback /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/CollectionManager/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CollectionManager /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/CollectionManager /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/NiagaraEditor/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/NiagaraEditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/NiagaraEditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/GraphEditor/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/GraphEditor/Public/KismetNodes /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GraphEditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/GraphEditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/IntroTutorials/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/IntroTutorials /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/IntroTutorials /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/LevelEditor/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/LevelEditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/LevelEditor /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Settings /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/Settings /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/HeadMountedDisplay/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HeadMountedDisplay /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/HeadMountedDisplay /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/VREditor/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/VREditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/VREditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/AddContentDialog/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AddContentDialog /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/AddContentDialog /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/MeshUtilities/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/MeshUtilities /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/MeshUtilities /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Kismet/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Kismet/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Kismet/Public/Nodes /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Kismet/Public/Profiler /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Kismet /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Kismet";
+				USE_HEADERMAP = NO;
+			};
+			name = "DebugGame Editor";
+		};
+		341E88AEBAA2F12B8D7F9A2B /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				UE_BUILD_TARGET_CONFIG = DebugGame;
+				UE_BUILD_TARGET_NAME = SimpleAndroid;
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = DebugGame;
+		};
+		34475F6920E463A9D3FC2D2B /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"UE_EDITOR=1",
+					"IS_PROGRAM=0",
+					"WITH_DEV_AUTOMATION_TESTS=1",
+					"WITH_PERF_AUTOMATION_TESTS=1",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=0",
+					"WITH_ENGINE=1",
+					"WITH_UNREAL_DEVELOPER_TOOLS=1",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"USE_LOGGING_IN_SHIPPING=0",
+					"USE_CHECKS_IN_SHIPPING=0",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=1",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"UBT_COMPILED_TARGET=Editor",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"HAS_METAL=1",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"ORIGINAL_FILE_NAME=UE4Editor-SimpleAndroid.dylib",
+					"DEPRECATED_FORGAME=DEPRECATED",
+					"SIMPLEANDROID_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_STEAMWORKS=1",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"COREUOBJECT_API=",
+					"WITH_PHYSX=1",
+					"WITH_APEX=1",
+					WITH_RUNTIME_PHYSICS_COOKING,
+					"WITH_BOX2D=0",
+					"WITH_RECAST=1",
+					"ENGINE_API=",
+					"JSON_API=",
+					"WITH_FREETYPE=1",
+					"SLATECORE_API=",
+					"INPUTCORE_API=",
+					"SLATE_API=",
+					"MESSAGING_API=",
+					"RENDERCORE_API=",
+					"RHI_API=",
+					"SHADERCORE_API=",
+					"ASSETREGISTRY_API=",
+					"ENGINEMESSAGES_API=",
+					"ENGINESETTINGS_API=",
+					"SYNTHBENCHMARK_API=",
+					"RENDERER_API=",
+					"WITH_GAMEPLAY_DEBUGGER=1",
+					"AIMODULE_API=",
+					"GAMEPLAYTAGS_API=",
+					"GAMEPLAYTASKS_API=",
+					"DATABASESUPPORT_API=",
+					"PACKETHANDLER_API=",
+					"RELIABILITYHANDLERCOMPONENT_API=",
+					"HARDWARESURVEY_API=",
+					"UNREALED_API=",
+					"BSPMODE_API=",
+					"DIRECTORYWATCHER_API=",
+					"DOCUMENTATION_API=",
+					"PROJECTS_API=",
+					"SANDBOXFILE_API=",
+					"EDITORSTYLE_API=",
+					"SOURCECONTROL_API=",
+					"UNREALEDMESSAGES_API=",
+					"ENABLE_OLD_GAMEPLAY_DEBUGGER=1",
+					"GAMEPLAYDEBUGGER_API=",
+					"BLUEPRINTGRAPH_API=",
+					"HTTP_PACKAGE=1",
+					"HTTP_API=",
+					"UNREALAUDIO_API=",
+					"NIAGARA_API=",
+					"MOVIESCENE_API=",
+					"VECTORVM_API=",
+					"FUNCTIONALTESTING_API=",
+					"UNREALAUDIOCOREAUDIO_API=",
+					"USERFEEDBACK_API=",
+					"COLLECTIONMANAGER_API=",
+					"NIAGARAEDITOR_API=",
+					"GRAPHEDITOR_API=",
+					"INTROTUTORIALS_API=",
+					"LEVELEDITOR_API=",
+					"SETTINGS_API=",
+					"HEADMOUNTEDDISPLAY_API=",
+					"VREDITOR_API=",
+					"ADDCONTENTDIALOG_API=",
+					"MESHUTILITIES_API=",
+					"KISMET_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine/4.12/Engine/Source ../../Source ../Build/Mac/UE4Editor/Inc/SimpleAndroid ../../Source/SimpleAndroid /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public/Internationalization /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public/UObject /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CoreUObject /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/AI /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/AI/Navigation /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Animation /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/EdGraph /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Features /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Internationalization /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Net /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/PacketHandlers /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Performance /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Slate /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Tests /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/VisualLogger /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Json/Public/Serialization /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Json /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Widgets /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SlateCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/InputCore/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/InputCore/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/InputCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/InputCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Views /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Slate /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Messaging/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Messaging/Public/Deprecated /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Messaging/Public/Helpers /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Messaging /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Messaging /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/RenderCore/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RenderCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/RenderCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/RHI/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RHI /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/RHI /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/ShaderCore/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ShaderCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/ShaderCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/AssetRegistry/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AssetRegistry /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/AssetRegistry /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/EngineMessages/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/EngineMessages/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineMessages /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/EngineMessages /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/EngineSettings/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/EngineSettings/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineSettings /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/EngineSettings /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SynthBenchmark/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SynthBenchmark /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SynthBenchmark /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Renderer/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Renderer /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Renderer /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/AIModule/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/AIModule/Classes /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/AIModule /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayTags/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayTags/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTags /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayTags /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayTasks/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayTasks/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTasks /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayTasks /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/DatabaseSupport/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DatabaseSupport /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/DatabaseSupport /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/PacketHandlers/PacketHandler/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/PacketHandlers/PacketHandler/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/PacketHandler /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/PacketHandlers/PacketHandler /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ReliabilityHandlerComponent /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/HardwareSurvey/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HardwareSurvey /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/HardwareSurvey /Users/Shared/UnrealEngine/4.12/Engine/Source/Programs/UnrealLightmass/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/AutoReimport /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Commandlets /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Dialogs /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/DragAndDrop /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Features /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Kismet2 /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Layers /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Localization /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Settings /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Tests /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Toolkits /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEd /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/BspMode/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BspMode /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/BspMode /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/DirectoryWatcher/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DirectoryWatcher /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/DirectoryWatcher /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Documentation/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Documentation /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Documentation /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Projects/Public/Interfaces /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Projects /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SandboxFile/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SandboxFile /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SandboxFile /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/EditorStyle/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/EditorStyle/Public/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/EditorStyle/Public/Interfaces /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EditorStyle /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/EditorStyle /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/SourceControl/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/SourceControl/Public/Tests /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SourceControl /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/SourceControl /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEdMessages/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEdMessages/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEdMessages /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEdMessages /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/GameplayDebugger/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/AIModule/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/Settings/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayAbilities/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/GameplayDebugger/Classes /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayDebugger /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/GameplayDebugger /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/BlueprintGraph/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/BlueprintGraph/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BlueprintGraph /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/BlueprintGraph /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/Android /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/Apple /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/GenericPlatform /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/HTML5 /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/Interfaces /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/Linux /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/WinRT /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/Windows /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HTTP /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/UnrealAudio/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudio /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/UnrealAudio /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Niagara/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Niagara/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Niagara /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Niagara /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/MovieScene/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/MovieScene /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/MovieScene /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/VectorVM/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/VectorVM /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/VectorVM /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/FunctionalTesting/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/FunctionalTesting/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/FunctionalTesting /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/FunctionalTesting /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudioCoreAudio /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Mac/UnrealAudioCoreAudio /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UserFeedback/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UserFeedback /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UserFeedback /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/CollectionManager/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CollectionManager /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/CollectionManager /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/NiagaraEditor/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/NiagaraEditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/NiagaraEditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/GraphEditor/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/GraphEditor/Public/KismetNodes /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GraphEditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/GraphEditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/IntroTutorials/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/IntroTutorials /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/IntroTutorials /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/LevelEditor/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/LevelEditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/LevelEditor /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Settings /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/Settings /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/HeadMountedDisplay/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HeadMountedDisplay /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/HeadMountedDisplay /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/VREditor/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/VREditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/VREditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/AddContentDialog/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AddContentDialog /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/AddContentDialog /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/MeshUtilities/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/MeshUtilities /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/MeshUtilities /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Kismet/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Kismet/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Kismet/Public/Nodes /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Kismet/Public/Profiler /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Kismet /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Kismet";
+				USE_HEADERMAP = NO;
+			};
+			name = Development;
+		};
+		36ED89F099FB5244499A8E94 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = /Users/idurdyev/Documents/Projects/UE4/SimpleAndroid/Binaries/IOS/Payload;
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = /Users/idurdyev/Documents/Projects/UE4/SimpleAndroid/Binaries/Mac;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/idurdyev/Documents/Projects/UE4/SimpleAndroid/Intermediate/IOS/SimpleAndroid-Info.plist";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/idurdyev/Documents/Projects/UE4/SimpleAndroid/Intermediate/Mac/SimpleAndroid-Mac-Shipping-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = SimpleAndroid;
+				"PRODUCT_NAME[sdk=macosx*]" = "SimpleAndroid-Mac-Shipping";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = macosx;
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"SDKROOT[sdk=macosx]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Shipping;
+		};
+		3B46672D012392D0412528E8 /* Development Editor */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = /Users/Shared/UnrealEngine/4.12/Engine/Binaries/Mac;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = UE4Editor;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = "Development Editor";
+		};
+		4DF372D573A3F520A6CF6A06 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = /Users/idurdyev/Documents/Projects/UE4/SimpleAndroid/Binaries/IOS/Payload;
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = /Users/idurdyev/Documents/Projects/UE4/SimpleAndroid/Binaries/Mac;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/idurdyev/Documents/Projects/UE4/SimpleAndroid/Intermediate/IOS/SimpleAndroid-Info.plist";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/idurdyev/Documents/Projects/UE4/SimpleAndroid/Intermediate/Mac/SimpleAndroid-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = SimpleAndroid;
+				"PRODUCT_NAME[sdk=macosx*]" = SimpleAndroid;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = macosx;
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"SDKROOT[sdk=macosx]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Development;
+		};
+		5100E5E6950CF4CAED737AC7 /* DebugGame Editor */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = macosx;
+				UE_BUILD_TARGET_CONFIG = DebugGame;
+				UE_BUILD_TARGET_NAME = SimpleAndroidEditor;
+				VALID_ARCHS = x86_64;
+			};
+			name = "DebugGame Editor";
+		};
+		6AC67C22403D6FFA4C1D9465 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"UE_EDITOR=1",
+					"IS_PROGRAM=0",
+					"WITH_DEV_AUTOMATION_TESTS=1",
+					"WITH_PERF_AUTOMATION_TESTS=1",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=0",
+					"WITH_ENGINE=1",
+					"WITH_UNREAL_DEVELOPER_TOOLS=1",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"USE_LOGGING_IN_SHIPPING=0",
+					"USE_CHECKS_IN_SHIPPING=0",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=1",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"UBT_COMPILED_TARGET=Editor",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"HAS_METAL=1",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"ORIGINAL_FILE_NAME=UE4Editor-SimpleAndroid.dylib",
+					"DEPRECATED_FORGAME=DEPRECATED",
+					"SIMPLEANDROID_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_STEAMWORKS=1",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"COREUOBJECT_API=",
+					"WITH_PHYSX=1",
+					"WITH_APEX=1",
+					WITH_RUNTIME_PHYSICS_COOKING,
+					"WITH_BOX2D=0",
+					"WITH_RECAST=1",
+					"ENGINE_API=",
+					"JSON_API=",
+					"WITH_FREETYPE=1",
+					"SLATECORE_API=",
+					"INPUTCORE_API=",
+					"SLATE_API=",
+					"MESSAGING_API=",
+					"RENDERCORE_API=",
+					"RHI_API=",
+					"SHADERCORE_API=",
+					"ASSETREGISTRY_API=",
+					"ENGINEMESSAGES_API=",
+					"ENGINESETTINGS_API=",
+					"SYNTHBENCHMARK_API=",
+					"RENDERER_API=",
+					"WITH_GAMEPLAY_DEBUGGER=1",
+					"AIMODULE_API=",
+					"GAMEPLAYTAGS_API=",
+					"GAMEPLAYTASKS_API=",
+					"DATABASESUPPORT_API=",
+					"PACKETHANDLER_API=",
+					"RELIABILITYHANDLERCOMPONENT_API=",
+					"HARDWARESURVEY_API=",
+					"UNREALED_API=",
+					"BSPMODE_API=",
+					"DIRECTORYWATCHER_API=",
+					"DOCUMENTATION_API=",
+					"PROJECTS_API=",
+					"SANDBOXFILE_API=",
+					"EDITORSTYLE_API=",
+					"SOURCECONTROL_API=",
+					"UNREALEDMESSAGES_API=",
+					"ENABLE_OLD_GAMEPLAY_DEBUGGER=1",
+					"GAMEPLAYDEBUGGER_API=",
+					"BLUEPRINTGRAPH_API=",
+					"HTTP_PACKAGE=1",
+					"HTTP_API=",
+					"UNREALAUDIO_API=",
+					"NIAGARA_API=",
+					"MOVIESCENE_API=",
+					"VECTORVM_API=",
+					"FUNCTIONALTESTING_API=",
+					"UNREALAUDIOCOREAUDIO_API=",
+					"USERFEEDBACK_API=",
+					"COLLECTIONMANAGER_API=",
+					"NIAGARAEDITOR_API=",
+					"GRAPHEDITOR_API=",
+					"INTROTUTORIALS_API=",
+					"LEVELEDITOR_API=",
+					"SETTINGS_API=",
+					"HEADMOUNTEDDISPLAY_API=",
+					"VREDITOR_API=",
+					"ADDCONTENTDIALOG_API=",
+					"MESHUTILITIES_API=",
+					"KISMET_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine/4.12/Engine/Source ../../Source ../Build/Mac/UE4Editor/Inc/SimpleAndroid ../../Source/SimpleAndroid /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public/Internationalization /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public/UObject /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CoreUObject /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/AI /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/AI/Navigation /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Animation /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/EdGraph /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Features /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Internationalization /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Net /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/PacketHandlers /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Performance /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Slate /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Tests /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/VisualLogger /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Json/Public/Serialization /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Json /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Widgets /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SlateCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/InputCore/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/InputCore/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/InputCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/InputCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Views /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Slate /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Messaging/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Messaging/Public/Deprecated /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Messaging/Public/Helpers /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Messaging /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Messaging /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/RenderCore/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RenderCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/RenderCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/RHI/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RHI /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/RHI /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/ShaderCore/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ShaderCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/ShaderCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/AssetRegistry/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AssetRegistry /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/AssetRegistry /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/EngineMessages/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/EngineMessages/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineMessages /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/EngineMessages /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/EngineSettings/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/EngineSettings/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineSettings /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/EngineSettings /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SynthBenchmark/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SynthBenchmark /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SynthBenchmark /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Renderer/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Renderer /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Renderer /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/AIModule/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/AIModule/Classes /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/AIModule /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayTags/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayTags/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTags /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayTags /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayTasks/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayTasks/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTasks /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayTasks /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/DatabaseSupport/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DatabaseSupport /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/DatabaseSupport /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/PacketHandlers/PacketHandler/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/PacketHandlers/PacketHandler/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/PacketHandler /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/PacketHandlers/PacketHandler /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ReliabilityHandlerComponent /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/HardwareSurvey/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HardwareSurvey /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/HardwareSurvey /Users/Shared/UnrealEngine/4.12/Engine/Source/Programs/UnrealLightmass/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/AutoReimport /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Commandlets /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Dialogs /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/DragAndDrop /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Features /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Kismet2 /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Layers /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Localization /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Settings /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Tests /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Toolkits /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEd /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/BspMode/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BspMode /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/BspMode /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/DirectoryWatcher/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DirectoryWatcher /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/DirectoryWatcher /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Documentation/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Documentation /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Documentation /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Projects/Public/Interfaces /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Projects /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SandboxFile/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SandboxFile /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SandboxFile /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/EditorStyle/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/EditorStyle/Public/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/EditorStyle/Public/Interfaces /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EditorStyle /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/EditorStyle /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/SourceControl/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/SourceControl/Public/Tests /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SourceControl /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/SourceControl /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEdMessages/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEdMessages/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEdMessages /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEdMessages /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/GameplayDebugger/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/AIModule/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/Settings/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayAbilities/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/GameplayDebugger/Classes /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayDebugger /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/GameplayDebugger /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/BlueprintGraph/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/BlueprintGraph/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BlueprintGraph /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/BlueprintGraph /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/Android /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/Apple /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/GenericPlatform /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/HTML5 /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/Interfaces /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/Linux /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/WinRT /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/Windows /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HTTP /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/UnrealAudio/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudio /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/UnrealAudio /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Niagara/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Niagara/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Niagara /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Niagara /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/MovieScene/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/MovieScene /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/MovieScene /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/VectorVM/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/VectorVM /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/VectorVM /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/FunctionalTesting/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/FunctionalTesting/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/FunctionalTesting /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/FunctionalTesting /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudioCoreAudio /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Mac/UnrealAudioCoreAudio /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UserFeedback/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UserFeedback /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UserFeedback /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/CollectionManager/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CollectionManager /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/CollectionManager /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/NiagaraEditor/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/NiagaraEditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/NiagaraEditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/GraphEditor/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/GraphEditor/Public/KismetNodes /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GraphEditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/GraphEditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/IntroTutorials/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/IntroTutorials /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/IntroTutorials /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/LevelEditor/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/LevelEditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/LevelEditor /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Settings /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/Settings /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/HeadMountedDisplay/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HeadMountedDisplay /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/HeadMountedDisplay /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/VREditor/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/VREditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/VREditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/AddContentDialog/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AddContentDialog /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/AddContentDialog /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/MeshUtilities/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/MeshUtilities /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/MeshUtilities /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Kismet/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Kismet/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Kismet/Public/Nodes /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Kismet/Public/Profiler /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Kismet /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Kismet";
+				USE_HEADERMAP = NO;
+			};
+			name = Shipping;
+		};
+		6C4116F4B5D5268120476A14 /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				UE_BUILD_TARGET_CONFIG = Shipping;
+				UE_BUILD_TARGET_NAME = SimpleAndroid;
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Shipping;
+		};
+		709E8DA288028181D9511ACC /* Shipping */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = /Users/idurdyev/Documents/Projects/UE4/SimpleAndroid/Binaries/IOS/Payload;
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = /Users/idurdyev/Documents/Projects/UE4/SimpleAndroid/Binaries/Mac;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/idurdyev/Documents/Projects/UE4/SimpleAndroid/Intermediate/IOS/SimpleAndroid-Info.plist";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/idurdyev/Documents/Projects/UE4/SimpleAndroid/Intermediate/Mac/SimpleAndroid-Mac-Shipping-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = SimpleAndroid;
+				"PRODUCT_NAME[sdk=macosx*]" = "SimpleAndroid-Mac-Shipping";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = macosx;
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"SDKROOT[sdk=macosx]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Shipping;
+		};
+		7A72FE5BA493497930486868 /* DebugGame Editor */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = /Users/Shared/UnrealEngine/4.12/Engine/Binaries/Mac;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = UE4Editor;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = "DebugGame Editor";
+		};
+		942196E578A0494DB08A1F2B /* DebugGame Editor */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = /Users/Shared/UnrealEngine/4.12/Engine/Binaries/Mac;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = UE4Editor;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = "DebugGame Editor";
+		};
+		9F6DB751BA4D6F52C177CCC9 /* Development Editor */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = /Users/Shared/UnrealEngine/4.12/Engine/Binaries/Mac;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = UE4Editor;
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = "Development Editor";
+		};
+		A1EEA81D41A5FA09987CB24D /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				UE_BUILD_TARGET_CONFIG = Development;
+				UE_BUILD_TARGET_NAME = SimpleAndroid;
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Development;
+		};
+		AC8AA90810D1F47D45D30EB0 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = /Users/idurdyev/Documents/Projects/UE4/SimpleAndroid/Binaries/IOS/Payload;
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = /Users/idurdyev/Documents/Projects/UE4/SimpleAndroid/Binaries/Mac;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/idurdyev/Documents/Projects/UE4/SimpleAndroid/Intermediate/IOS/SimpleAndroid-Info.plist";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/idurdyev/Documents/Projects/UE4/SimpleAndroid/Intermediate/Mac/SimpleAndroid-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = SimpleAndroid;
+				"PRODUCT_NAME[sdk=macosx*]" = SimpleAndroid;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = macosx;
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"SDKROOT[sdk=macosx]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = Development;
+		};
+		C9C766A1011CCF50876ACBD7 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"UE_EDITOR=1",
+					"IS_PROGRAM=0",
+					"WITH_DEV_AUTOMATION_TESTS=1",
+					"WITH_PERF_AUTOMATION_TESTS=1",
+					UNICODE,
+					_UNICODE,
+					__UNREAL__,
+					"IS_MONOLITHIC=0",
+					"WITH_ENGINE=1",
+					"WITH_UNREAL_DEVELOPER_TOOLS=1",
+					"WITH_COREUOBJECT=1",
+					"USE_STATS_WITHOUT_ENGINE=0",
+					"WITH_PLUGIN_SUPPORT=0",
+					"USE_LOGGING_IN_SHIPPING=0",
+					"USE_CHECKS_IN_SHIPPING=0",
+					"UE_BUILD_MINIMAL=0",
+					"WITH_EDITOR=1",
+					"WITH_SERVER_CODE=1",
+					"UBT_COMPILED_PLATFORM=Mac",
+					"UBT_COMPILED_TARGET=Editor",
+					"PLATFORM_MAC=1",
+					"PLATFORM_APPLE=1",
+					"WITH_TTS=0",
+					"WITH_SPEECH_RECOGNITION=0",
+					"WITH_DATABASE_SUPPORT=0",
+					"HAS_METAL=1",
+					"NDEBUG=1",
+					"UE_BUILD_DEVELOPMENT=1",
+					"ORIGINAL_FILE_NAME=UE4Editor-SimpleAndroid.dylib",
+					"DEPRECATED_FORGAME=DEPRECATED",
+					"SIMPLEANDROID_API=",
+					"UE_ENABLE_ICU=1",
+					"WITH_STEAMWORKS=1",
+					"WITH_DIRECTXMATH=0",
+					"CORE_API=",
+					"COREUOBJECT_API=",
+					"WITH_PHYSX=1",
+					"WITH_APEX=1",
+					WITH_RUNTIME_PHYSICS_COOKING,
+					"WITH_BOX2D=0",
+					"WITH_RECAST=1",
+					"ENGINE_API=",
+					"JSON_API=",
+					"WITH_FREETYPE=1",
+					"SLATECORE_API=",
+					"INPUTCORE_API=",
+					"SLATE_API=",
+					"MESSAGING_API=",
+					"RENDERCORE_API=",
+					"RHI_API=",
+					"SHADERCORE_API=",
+					"ASSETREGISTRY_API=",
+					"ENGINEMESSAGES_API=",
+					"ENGINESETTINGS_API=",
+					"SYNTHBENCHMARK_API=",
+					"RENDERER_API=",
+					"WITH_GAMEPLAY_DEBUGGER=1",
+					"AIMODULE_API=",
+					"GAMEPLAYTAGS_API=",
+					"GAMEPLAYTASKS_API=",
+					"DATABASESUPPORT_API=",
+					"PACKETHANDLER_API=",
+					"RELIABILITYHANDLERCOMPONENT_API=",
+					"HARDWARESURVEY_API=",
+					"UNREALED_API=",
+					"BSPMODE_API=",
+					"DIRECTORYWATCHER_API=",
+					"DOCUMENTATION_API=",
+					"PROJECTS_API=",
+					"SANDBOXFILE_API=",
+					"EDITORSTYLE_API=",
+					"SOURCECONTROL_API=",
+					"UNREALEDMESSAGES_API=",
+					"ENABLE_OLD_GAMEPLAY_DEBUGGER=1",
+					"GAMEPLAYDEBUGGER_API=",
+					"BLUEPRINTGRAPH_API=",
+					"HTTP_PACKAGE=1",
+					"HTTP_API=",
+					"UNREALAUDIO_API=",
+					"NIAGARA_API=",
+					"MOVIESCENE_API=",
+					"VECTORVM_API=",
+					"FUNCTIONALTESTING_API=",
+					"UNREALAUDIOCOREAUDIO_API=",
+					"USERFEEDBACK_API=",
+					"COLLECTIONMANAGER_API=",
+					"NIAGARAEDITOR_API=",
+					"GRAPHEDITOR_API=",
+					"INTROTUTORIALS_API=",
+					"LEVELEDITOR_API=",
+					"SETTINGS_API=",
+					"HEADMOUNTEDDISPLAY_API=",
+					"VREDITOR_API=",
+					"ADDCONTENTDIALOG_API=",
+					"MESHUTILITIES_API=",
+					"KISMET_API=",
+					"MONOLITHIC_BUILD=1",
+				);
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = NO;
+				HEADER_SEARCH_PATHS = "";
+				USER_HEADER_SEARCH_PATHS = "/Users/Shared/UnrealEngine/4.12/Engine/Source ../../Source ../Build/Mac/UE4Editor/Inc/SimpleAndroid ../../Source/SimpleAndroid /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Internationalization /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Async /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Concurrency /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Containers /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Delegates /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/GenericPlatform /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/HAL /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Logging /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Math /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Misc /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Modules /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Modules/Boilerplate /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/ProfilingDebugging /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Serialization /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Serialization/Csv /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Stats /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Templates /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/UObject /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Apple /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core/Public/Mac /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Core /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public/Blueprint /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public/Internationalization /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public/Misc /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public/Serialization /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public/Templates /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject/Public/UObject /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CoreUObject /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/CoreUObject /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/AI /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/AI/Navigation /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Animation /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/EdGraph /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Features /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Internationalization /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Net /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/PacketHandlers /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Performance /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Slate /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/Tests /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine/Public/VisualLogger /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Engine /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Engine /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Json/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Json/Public/Dom /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Json/Public/Policies /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Json/Public/Serialization /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Json /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Json /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Animation /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Application /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Brushes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Fonts /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Input /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Layout /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Logging /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Rendering /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Sound /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Stats /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Styling /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Textures /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Types /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore/Public/Widgets /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SlateCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SlateCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/InputCore/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/InputCore/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/InputCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/InputCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Application /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Commands /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Docking /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Layout /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/MultiBox /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Notifications /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Styling /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Text /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Text/Android /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Text/IOS /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Framework/Views /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Colors /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Docking /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Images /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Input /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/LayerManager /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Layout /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Navigation /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Notifications /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Text /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate/Public/Widgets/Views /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Slate /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Slate /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Messaging/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Messaging/Public/Deprecated /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Messaging/Public/Helpers /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Messaging /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Messaging /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/RenderCore/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RenderCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/RenderCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/RHI/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/RHI /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/RHI /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/ShaderCore/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ShaderCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/ShaderCore /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/AssetRegistry/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AssetRegistry /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/AssetRegistry /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/EngineMessages/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/EngineMessages/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineMessages /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/EngineMessages /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/EngineSettings/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/EngineSettings/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EngineSettings /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/EngineSettings /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SynthBenchmark/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SynthBenchmark /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SynthBenchmark /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Renderer/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Renderer /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Renderer /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/AIModule/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/AIModule/Classes /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AIModule /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/AIModule /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayTags/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayTags/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTags /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayTags /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayTasks/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayTasks/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayTasks /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayTasks /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/DatabaseSupport/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DatabaseSupport /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/DatabaseSupport /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/PacketHandlers/PacketHandler/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/PacketHandlers/PacketHandler/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/PacketHandler /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/PacketHandlers/PacketHandler /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/ReliabilityHandlerComponent /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/PacketHandlers/ReliabilityHandlerComponent /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/HardwareSurvey/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HardwareSurvey /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/HardwareSurvey /Users/Shared/UnrealEngine/4.12/Engine/Source/Programs/UnrealLightmass/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/AutoReimport /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Commandlets /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Dialogs /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/DragAndDrop /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Features /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Kismet2 /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Layers /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Localization /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Settings /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Tests /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/Toolkits /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEd /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/BspMode/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BspMode /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/BspMode /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/DirectoryWatcher/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/DirectoryWatcher /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/DirectoryWatcher /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Documentation/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Documentation /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Documentation /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Projects/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Projects/Public/Interfaces /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Projects /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Projects /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SandboxFile/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SandboxFile /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/SandboxFile /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/EditorStyle/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/EditorStyle/Public/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/EditorStyle/Public/Interfaces /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/EditorStyle /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/EditorStyle /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/SourceControl/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/SourceControl/Public/Tests /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/SourceControl /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/SourceControl /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEdMessages/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEdMessages/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealEdMessages /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEdMessages /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/GameplayDebugger/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/AIModule/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/Settings/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/GameplayAbilities/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/GameplayDebugger/Classes /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GameplayDebugger /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/GameplayDebugger /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/BlueprintGraph/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/BlueprintGraph/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/BlueprintGraph /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/BlueprintGraph /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/Android /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/Apple /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/GenericPlatform /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/HTML5 /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/Interfaces /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/Linux /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/WinRT /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP/Public/Windows /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HTTP /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Online/HTTP /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/UnrealAudio/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudio /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/UnrealAudio /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Niagara/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Niagara/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Niagara /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Niagara /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/MovieScene/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/MovieScene /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/MovieScene /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/VectorVM/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/VectorVM /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/VectorVM /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/FunctionalTesting/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/FunctionalTesting/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/FunctionalTesting /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/FunctionalTesting /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UnrealAudioCoreAudio /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/Mac/UnrealAudioCoreAudio /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UserFeedback/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/UserFeedback /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UserFeedback /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/CollectionManager/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/CollectionManager /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/CollectionManager /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/NiagaraEditor/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/NiagaraEditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/NiagaraEditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/GraphEditor/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/GraphEditor/Public/KismetNodes /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/GraphEditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/GraphEditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/IntroTutorials/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/IntroTutorials /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/IntroTutorials /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/LevelEditor/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/LevelEditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/LevelEditor /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Settings /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/Settings /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/HeadMountedDisplay/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/HeadMountedDisplay /Users/Shared/UnrealEngine/4.12/Engine/Source/Runtime/HeadMountedDisplay /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/VREditor/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/VREditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/VREditor /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/AddContentDialog/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/AddContentDialog /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/AddContentDialog /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/MeshUtilities/Public /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/MeshUtilities /Users/Shared/UnrealEngine/4.12/Engine/Source/Developer/MeshUtilities /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Kismet/Classes /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Kismet/Public /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Kismet/Public/Nodes /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Kismet/Public/Profiler /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Kismet/Public/WorkflowOrientedApp /Users/Shared/UnrealEngine/4.12/Engine/Intermediate/Build/Mac/UE4Editor/Inc/Kismet /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/Kismet";
+				USE_HEADERMAP = NO;
+			};
+			name = DebugGame;
+		};
+		CC4BB500C97DFD6FB1C2E5FE /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = /Users/idurdyev/Documents/Projects/UE4/SimpleAndroid/Binaries/IOS/Payload;
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = /Users/idurdyev/Documents/Projects/UE4/SimpleAndroid/Binaries/Mac;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/idurdyev/Documents/Projects/UE4/SimpleAndroid/Intermediate/IOS/SimpleAndroid-Info.plist";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/idurdyev/Documents/Projects/UE4/SimpleAndroid/Intermediate/Mac/SimpleAndroid-Mac-DebugGame-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = SimpleAndroid;
+				"PRODUCT_NAME[sdk=macosx*]" = "SimpleAndroid-Mac-DebugGame";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = macosx;
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"SDKROOT[sdk=macosx]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = DebugGame;
+		};
+		E19E2BFC8ACB2DD809693114 /* DebugGame */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CONFIGURATION_BUILD_DIR[sdk=iphoneos*]" = /Users/idurdyev/Documents/Projects/UE4/SimpleAndroid/Binaries/IOS/Payload;
+				"CONFIGURATION_BUILD_DIR[sdk=macosx*]" = /Users/idurdyev/Documents/Projects/UE4/SimpleAndroid/Binaries/Mac;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/Shared/UnrealEngine/4.12/Engine/Source/Editor/UnrealEd/Public/UnrealEd.h;
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "/Users/idurdyev/Documents/Projects/UE4/SimpleAndroid/Intermediate/IOS/SimpleAndroid-Info.plist";
+				"INFOPLIST_FILE[sdk=macosx*]" = "/Users/idurdyev/Documents/Projects/UE4/SimpleAndroid/Intermediate/Mac/SimpleAndroid-Mac-DebugGame-Info.plist";
+				INFOPLIST_OUTPUT_FORMAT = xml;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				"PRODUCT_NAME[sdk=iphoneos*]" = SimpleAndroid;
+				"PRODUCT_NAME[sdk=macosx*]" = "SimpleAndroid-Mac-DebugGame";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = macosx;
+				"SDKROOT[sdk=iphoneos]" = iphoneos;
+				"SDKROOT[sdk=macosx]" = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos";
+				"TARGETED_DEVICE_FAMILY[sdk=iphoneos*]" = "1,2";
+				VALID_ARCHS = "x86_64 arm64 armv7 armv7s";
+			};
+			name = DebugGame;
+		};
+		F9EC10D4DBECC0CDE0F7FCCD /* Development Editor */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				SUPPORTED_PLATFORMS = macosx;
+				UE_BUILD_TARGET_CONFIG = Development;
+				UE_BUILD_TARGET_NAME = SimpleAndroidEditor;
+				VALID_ARCHS = x86_64;
+			};
+			name = "Development Editor";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19C43BE2822552904F4DDFEC /* Build configuration list for PBXNativeTarget "SimpleAndroid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC4BB500C97DFD6FB1C2E5FE /* DebugGame */,
+				942196E578A0494DB08A1F2B /* DebugGame Editor */,
+				4DF372D573A3F520A6CF6A06 /* Development */,
+				3B46672D012392D0412528E8 /* Development Editor */,
+				36ED89F099FB5244499A8E94 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		4A1DC21AD09BF649D40F913C /* Build configuration list for PBXNativeTarget "SimpleAndroid_Index" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19E2BFC8ACB2DD809693114 /* DebugGame */,
+				7A72FE5BA493497930486868 /* DebugGame Editor */,
+				AC8AA90810D1F47D45D30EB0 /* Development */,
+				9F6DB751BA4D6F52C177CCC9 /* Development Editor */,
+				709E8DA288028181D9511ACC /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		8BCB61F5348CE846C4CABEF1 /* Build configuration list for PBXLegacyTarget "SimpleAndroid_Build" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341E88AEBAA2F12B8D7F9A2B /* DebugGame */,
+				5100E5E6950CF4CAED737AC7 /* DebugGame Editor */,
+				A1EEA81D41A5FA09987CB24D /* Development */,
+				F9EC10D4DBECC0CDE0F7FCCD /* Development Editor */,
+				6C4116F4B5D5268120476A14 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		FE1B572007D7B0A84809AA17 /* Build configuration list for PBXProject "SimpleAndroid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9C766A1011CCF50876ACBD7 /* DebugGame */,
+				33F2287E2C32DA07E1676DE3 /* DebugGame Editor */,
+				34475F6920E463A9D3FC2D2B /* Development */,
+				2074068D5247C265DD59C832 /* Development Editor */,
+				6AC67C22403D6FFA4C1D9465 /* Shipping */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBA5416C5940F03A171D0467 /* Project object */;
+}
